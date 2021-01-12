@@ -7,7 +7,7 @@ import { AppService } from './app.service';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'eizenhot-pressure-frontend/dist/eizenhot-pressure-frontend')
+      rootPath: join(__dirname, '..', 'eizenhot-pressure-frontend/dist/eizenhot-pressure-frontend')
     })
   ],
   controllers: [AppController],
