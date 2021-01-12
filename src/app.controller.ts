@@ -11,8 +11,8 @@ export class AppController {
   //   return this.appService.getHello();
   // }
 
-  @Get()
-  sendApplication(@Res() res) {
-    res.sendFile(path.join(__dirname, '../../eizenhot-pressure-frontend/dist/eizenhot-pressure-frontend/index.html'));
-  }
+  // @Get()
+  // sendApplication(@Res() res) {
+  //   res.sendFile(path.join(__dirname, '../../eizenhot-pressure-frontend/dist/eizenhot-pressure-frontend/index.html'));
+  // }
 }
